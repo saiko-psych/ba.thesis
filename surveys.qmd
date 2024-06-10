@@ -1,0 +1,19 @@
+---
+title: "Surveys"
+editor: visual
+number-sections: true
+number-offset: 4
+execute: 
+  freeze: auto
+bibliography: references.bib
+---
+
+# Screening Survey (pdf)
+
+{{< pdf r_docs/pdf/screening_survey.pdf width=700 height=400 >}}
+
+# Lab Survey (pdf)
+
+{{< pdf r_docs/pdf/lab_survey.pdf width=700 height=400 >}}
+
+All surveys are done with [@limesurv]

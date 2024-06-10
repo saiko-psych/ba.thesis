@@ -1,0 +1,43 @@
+project: 
+  type: website
+  output-dir: docs
+  
+website: 
+  page-navigation: true
+  favicon: r_docs/img/uni_logo.jpg
+  reader-mode: true
+  title: Bachelor Thesis David Matischek
+  sidebar:
+    title: BA Thesis
+    logo: r_docs/img/uni_logo.jpg
+    tools: 
+      - icon: envelope
+        href: "mailto:david.matischek@edu.uni-graz.at"
+      - icon: github
+        href: https://github.com/saiko-psych
+    contents: 
+      - text: "Overview"
+        href: r_docs/index.qmd
+      - section: "Contents:"
+        contents:
+        - text: "Introduction"
+          href: r_docs/introduction.qmd
+        - text: "Methods"
+          href: r_docs/methods.qmd
+        - section: "Results"
+          contents: 
+            - text: "Results Nocebo Effect"
+              href: r_docs/nocebo_effect.qmd
+            - text: "Results other Hypothesis"
+              href: r_docs/other_hypothesis.qmd 
+        - text: "Discussion"
+          href: r_docs/discussion.qmd
+      - section: "Appendix"
+        contents:
+          - text: "Survey PDF"
+            href: surveys.qmd
+
+format:
+  html:
+    theme: flatly
+    toc: true

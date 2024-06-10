@@ -1,0 +1,18 @@
+---
+title: "Discussion"
+number-sections: true
+number-offset: 3
+format:
+  html:
+    self-contained: true
+    toc: true
+knitr: 
+  opts_chunk: 
+    warning: false
+    message: false
+editor: visual
+execute: 
+  freeze: auto
+bibliography: references.bib
+---
+# Discussion {#sec-discussion}

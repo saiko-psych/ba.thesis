@@ -1,0 +1,8 @@
+- source: project
+  quarto-pub:
+    - id: d4dcafae-c4ae-47c7-8326-ea2337ab6f65
+      url: 'https://saiko.quarto.pub/psychology-bachelor-thesis-david-matischek'
+    - id: 97303842-47a8-431f-a979-40b3f68ae2ec
+      url: 'https://saiko.quarto.pub/psychology-bachelor-thesis-david-matischek'
+    - id: 0a69fba3-d3d6-497c-9119-b89e61949de2
+      url: 'https://saiko.quarto.pub/bachelor-thesis-david-matischek'
